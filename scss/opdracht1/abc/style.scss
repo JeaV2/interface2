@@ -1,0 +1,33 @@
+$blue: rgb(152, 152, 255);
+
+.card {
+    .card-title {
+        background-color: $blue;
+        font-size: 3em;
+    }
+
+    .card-content {
+        background-color: rgb(204, 204, 219);
+        font-size: 1em;
+    }
+}
+
+button {
+    &:hover {
+        background-color: rgb(225, 255, 181);
+    }
+    background-color: $blue;
+    .icon {
+        margin: 8px;
+    }
+}
+
+.profile {
+    .profile-name{
+        background-color: rgb(99, 99, 99);
+        font-size: 1rem;
+        @media screen and (min-width: 768px) {
+            font-size: 1.5rem;
+        }
+    }
+}
