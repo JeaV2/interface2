@@ -1,0 +1,7 @@
+@use 'variables';
+
+
+.btn {
+    background-color: variables.$btn-color;
+    padding: variables.$btn-padding;
+}

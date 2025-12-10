@@ -1,0 +1,14 @@
+@use 'variables';
+.card {
+    background-color: variables.$card-background-color;
+    border: 1px solid variables.$card-border-color;
+    border-radius: variables.$card-border-radius;
+    padding: variables.$card-padding;
+    box-shadow: variables.$card-box-shadow;
+    width: variables.$card-width;
+    transition: all 0.3s ease;
+    &:hover {
+        transform: variables.$card-hover-transform;
+        transition: all 0.3s ease;
+    }
+}

@@ -1,0 +1,5 @@
+@use 'variables';
+h1, h2, h3 {
+    font-family: variables.$title-font-family;
+    color: variables.$title-color;
+}
