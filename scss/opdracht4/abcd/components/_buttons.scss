@@ -1,0 +1,17 @@
+@use '../abstracts/colors' as c;
+@use 'sass:color';
+.btn {
+    background-color: c.$primary-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.2rem solid color.scale(c.$primary-color, $lightness: -10% );
+    transition: background-color, transform 0.3s ease;;
+}
+.btn:hover {
+    background-color: color.adjust(c.$primary-color, $lightness: -10%);
+    transform: scale(1.1);
+    transition: background-color, transform 0.3s ease;
+}

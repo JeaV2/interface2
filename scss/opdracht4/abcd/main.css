@@ -1,0 +1,51 @@
+body {
+  background-color: #7d3f3f;
+  font-family: Liberation Sans, sans-serif, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Segoe UI, Selawik, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  background-color: #ff8864;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0.2rem solid rgb(255, 108.7451612903, 64.5);
+  transition: background-color, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(255, 96.8451612903, 49);
+  transform: scale(1.1);
+  transition: background-color, transform 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #de8383;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 0.3rem solid rgb(214.5802547771, 103.1197452229, 103.1197452229);
+  box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.text-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: Liberation Sans, sans-serif, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  background-color: #924949;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 0.2rem solid rgb(131.4, 65.7, 65.7);
+}/*# sourceMappingURL=main.css.map */

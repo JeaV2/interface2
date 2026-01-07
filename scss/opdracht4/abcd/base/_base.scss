@@ -1,0 +1,9 @@
+@use '../abstracts/colors' as c;
+@use '../abstracts/typograpy' as t;
+body {
+    background-color: c.$background-color;   
+    font-family: t.$Sans;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: t.$Segoe;
+}

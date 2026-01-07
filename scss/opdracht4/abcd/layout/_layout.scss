@@ -1,0 +1,27 @@
+
+@use '../abstracts/colors' as c;
+@use '../abstracts/typograpy' as t;
+@use 'sass:color';
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: c.$container-color;
+    color: c.$text-color;
+    border-radius: 8px;
+    border: 0.3rem solid color.scale(c.$container-color, $lightness: -10% );
+    box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.6);
+}
+.header {
+    padding: 1rem 0;
+    text-align: center;
+}
+.text-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: t.$Sans;
+    background-color: c.$text-content-background;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 0.2rem solid color.scale(c.$text-content-background, $lightness: -10% );
+}
