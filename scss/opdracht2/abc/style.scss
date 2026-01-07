@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $primary-color: #3498db;
 
 $error-color: #ff98bb;
@@ -5,6 +7,7 @@ $warning-color: #fff6a4;
 $font-size-base: 16px;
 
 $button-bg: #b4ffd3;
+
 
 body {
     font-family: Arial, sans-serif;
@@ -38,6 +41,6 @@ body {
     cursor: pointer;
 
     &:hover {
-        background-color: darken($button-bg, 15%);
+        background-color: color.adjust($button-bg, $lightness: -15%);
     }
 }
